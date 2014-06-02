@@ -1,0 +1,134 @@
+/*style sheet */
+body {
+    margin:0;
+    padding:0;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.container {
+    width:1000px;
+    margin:auto;
+}
+header {
+    width:100%;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    font-weight:bold;
+    color: #3D423E;
+    text-align: center;
+    padding-top:60px;
+}
+hr {
+    width:600px;
+}
+.main {
+    width:400px;
+    height:174px;
+    background-color: #000;
+    margin:auto;
+}
+.mainrole {
+    width:400px;
+    background-color: #1FADFF;
+    height:174px;
+    overflow: hidden;
+    display: table;
+}
+form {
+    margin: 0;
+    padding: 0;
+    display: table-cell;
+    vertical-align: middle;
+}
+.key {
+    width:400px;
+    height:174px;
+    background-color: #ccc;
+    position: relative;
+    top:-174px;
+    left:0;
+    z-index:-1;
+    display: table;
+}
+.middle_table {
+    vertical-align: middle;
+    display: table-cell;
+}
+.first_table {
+    width:400px;
+    margin: auto;
+    background-color:#1FADFF; 
+}
+.first_table td {
+    padding:5px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    font-weight:bold;
+    color: #0D2639;
+}
+.first_table td:nth-child(1) {
+    text-align: right;
+    width:150px;
+}
+.first_table td:nth-child(2) {
+    text-align: left;
+    width:250px;
+}
+.first_table input {
+    padding:5px;
+    border: solid 1px #0D2639;
+    border-radius:0px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    width:150px;
+    -webkit-transition: background-color 0.5s linear;
+}
+.first_table input:focus {
+    background-color:#E7FFAE;
+}
+#button,#keyboard {
+    width:70px;
+    display: block;
+    background-color: #0D2639;
+    cursor:pointer;
+    color:#FFF;
+    font-weight:bold;
+    -webkit-transition: background-color 0.2s linear;
+    float: left;
+}
+#button:hover,#keyboard:hover {
+    background-color: #453A44;
+    color:#fff;
+    text-align: center;
+}
+#button {
+    margin-right: 8px;
+    margin-left: 8px;
+}
+#keyboard {
+    background-image: url(../images/Keyboard.png);
+    background-repeat: no-repeat;
+    background-size:32px 14.5px;
+    background-position: center center;
+}
+.second_table {
+    margin:auto;
+    
+}
+.second_table td {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 12px;
+    color:#fff;
+    padding:8px;
+    margin:4px;
+    cursor:pointer;
+    background-color: #333;
+     -webkit-transition: background-color 0.2s linear;
+}
+.second_table td:hover {
+    background-color: #F1B65A;
+}

@@ -1,7 +1,7 @@
 # virtual_keyboard
 A Virtual Keyboard for Password fields on Webpages.
 
-URL: http://ayusharma.in/pc/
+URL: https://ayusharma.github.io/virtual_keyboard
 
 
 
